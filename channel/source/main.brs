@@ -8,8 +8,7 @@ sub Main()
 
 	CustomID = GetRokuCustomID()
 	if CustomID <> invalid
-		ClientApi = PlayFab().ClientApi
-		ClientApi.LoginWithCustomIDRequest(CustomID, true)
+		PlayFabClientApi().LoginWithCustomID({CustomId: CustomID, CreateAccount: true})
 	else
 		print "Unable To Login - ID invalid"
 	end if
