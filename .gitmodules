@@ -1,0 +1,3 @@
+[submodule "Roku-PlayFabSDK"]
+	path = Roku-PlayFabSDK
+	url = https://github.com/Romans-I-XVI/Roku-PlayFabSDK.git
